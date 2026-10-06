@@ -32,7 +32,7 @@ int main()
                 int dias = m[obj];
                 if(dias <= lim) cout << "Yesss\n";
                 else if(dias <= lim + 5) cout << "Late\n";
-                else cout << "Do yout own homework!\n";
+                else cout << "Do your own homework!\n";
             }
             else cout << "Do your own homework!\n";
             c++;
