@@ -41,7 +41,7 @@ int main() {
             }
         }
 
-        if (grupo > 0) printf("\n");
+        //if (grupo > 0) printf("\n");
         
         printf("Island Group: %d Average %.2f\n", ++grupo, suma / total);
     }
