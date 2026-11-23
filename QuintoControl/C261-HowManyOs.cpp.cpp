@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-    long long m, n;
-    while (cin >> m >> n && m >= 0)
+    long long m1, n;
+    while (cin >> m1 >> n && m1 >= 0)
     {
         long long total_n = 0;
         if (n >= 0)
@@ -30,7 +30,7 @@ int main()
             }
         }
 
-        long long limite_m = m - 1;
+        long long limite_m = m1 - 1;
         long long total_m = 0;
         if (limite_m >= 0)
         {
